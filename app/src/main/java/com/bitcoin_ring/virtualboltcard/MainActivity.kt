@@ -74,13 +74,13 @@ class MainActivity : AppCompatActivity() {
                 when (item.itemId) {
                     R.id.action1 -> {
                         // handle action1
-                        val intent = Intent(this, CardSetupLNbitsCreate::class.java)
+                        val intent = Intent(this, CardSetupLNbitsImport::class.java)
                         startActivity(intent)
                         true
                     }
                     R.id.action2 -> {
                         // handle action2
-                        val intent = Intent(this, CardSetupLNbitsImport::class.java)
+                        val intent = Intent(this, CardSetupLNbitsCreate::class.java)
                         startActivity(intent)
                         true
                     }
